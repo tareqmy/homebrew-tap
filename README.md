@@ -12,10 +12,11 @@ You can install any application directly from this tap without tapping separatel
 brew install tareqmy/tap/<formula>
 ```
 
-For example, to install **Gitwig**:
+For example:
 
 ```sh
 brew install tareqmy/tap/gitwig
+brew install tareqmy/tap/ferronote
 ```
 
 ---
@@ -32,6 +33,7 @@ Then install any formula directly:
 
 ```sh
 brew install gitwig
+brew install ferronote
 ```
 
 ---
@@ -41,6 +43,7 @@ brew install gitwig
 | Formula | Description | Install Command |
 | :--- | :--- | :--- |
 | **`gitwig`** | Rust-based Terminal User Interface (TUI) for Git | `brew install tareqmy/tap/gitwig` |
+| **`ferronote`** | Blazing-fast terminal note-taking app inspired by Notational Velocity | `brew install tareqmy/tap/ferronote` |
 
 ---
 
