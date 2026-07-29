@@ -1,8 +1,8 @@
 class Ferronote < Formula
   desc "Blazing-fast terminal note-taking app inspired by Notational Velocity"
   homepage "https://github.com/tareqmy/ferronote"
-  url "https://github.com/tareqmy/ferronote/archive/refs/tags/v1.0.6.tar.gz"
-  sha256 "41894d7ce1b45979413e2d091c04097da99f231bb6560fde1812dc3a2068782b"
+  url "https://github.com/tareqmy/ferronote/archive/refs/tags/v1.0.7.tar.gz"
+  sha256 "dc6dd808624214741f6c1cb6aea04165cabfb3ccb3f58e5518c9cf3fffd24c8d"
   license "MIT"
 
   depends_on "rust" => :build
