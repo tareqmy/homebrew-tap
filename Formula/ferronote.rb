@@ -1,20 +1,20 @@
 class Ferronote < Formula
   desc "A blazing-fast terminal note-taking app inspired by Notational Velocity"
   homepage "https://github.com/tareqmy/ferronote"
-  version "1.2.5"
+  version "1.2.6"
 
   if OS.mac?
     if Hardware::CPU.intel?
       url "https://github.com/tareqmy/ferronote/releases/download/v#{version}/ferronote-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "a10ba9d0e4b457bcfb4507da02d5c5d010c9198939f2fcdd6119231cbf719010"
+      sha256 "4ca22764c61295864befee4d96d455e820c247ee0ccf82c9e5ccba3036110424"
     elsif Hardware::CPU.arm?
       url "https://github.com/tareqmy/ferronote/releases/download/v#{version}/ferronote-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "e50d2dad9aad13aa720376e3431b2a0bdb0ad15155b137f6f2140677eeeca0fe"
+      sha256 "bcc2b1b5512d1bef394d45054e37bef3fef26314fe831dbdb6621fd05185f2e4"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/tareqmy/ferronote/releases/download/v#{version}/ferronote-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "87b0f76cb61701dc9b30638277f9ca5b14728b569b0b5be97366951a619bb8dd"
+      sha256 "c49fa1cf284d37b02bbcea0ef60eda2df2fb6a17f8000bf49798fde7355eaebf"
     end
   end
 
