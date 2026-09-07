@@ -1,20 +1,20 @@
 class Gitwig < Formula
   desc "Rust-based Terminal User Interface (TUI) for Git"
   homepage "https://github.com/tareqmy/gitwig"
-  version "2.5.14"
+  version "2.5.15"
 
   if OS.mac?
     if Hardware::CPU.intel?
       url "https://github.com/tareqmy/gitwig/releases/download/v#{version}/gitwig-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "fdd53d96c17d0306c24c3adcd41a51bad2778faa0e510f8290393d6191eb5ec4"
+      sha256 "a573e90a5616cc22b2746f2b3b6f793ebb77aa8cd3b2dee01d747c045d571d8d"
     elsif Hardware::CPU.arm?
       url "https://github.com/tareqmy/gitwig/releases/download/v#{version}/gitwig-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "2e74cbbf34139e6856a1e92a5aab7151f6d268d3c98e1cba06291f8afe0d5f31"
+      sha256 "cdb03d4e55f8395172cd6be85e33f42fe7463dc29eaf1c5706b76257a3079ce8"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/tareqmy/gitwig/releases/download/v#{version}/gitwig-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f3e9ed05d8d9f75aef6089064cac92cbb7f6857eae676299de2e08d7adf236e7"
+      sha256 "f731ba044c00a265ba445afe6a396765e16a9e1c50c3b162e9e1a040c3a9e7a5"
     end
   end
 
