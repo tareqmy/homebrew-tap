@@ -17,6 +17,7 @@ For example:
 ```sh
 brew install tareqmy/tap/gitwig
 brew install tareqmy/tap/ferronote
+brew install tareqmy/tap/sipr
 ```
 
 ---
@@ -34,6 +35,7 @@ Then install any formula directly:
 ```sh
 brew install gitwig
 brew install ferronote
+brew install sipr
 ```
 
 ---
@@ -44,6 +46,7 @@ brew install ferronote
 | :--- | :--- | :--- |
 | **`gitwig`** | Rust-based Terminal User Interface (TUI) for Git | `brew install tareqmy/tap/gitwig` |
 | **`ferronote`** | Blazing-fast terminal note-taking app inspired by Notational Velocity | `brew install tareqmy/tap/ferronote` |
+| **`sipr`** | SIP testing tool and traffic generator in Rust, compatible with SIPp scenarios | `brew install tareqmy/tap/sipr` |
 
 ---
 
