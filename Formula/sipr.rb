@@ -1,24 +1,24 @@
 class Sipr < Formula
   desc "SIP testing tool and traffic generator in Rust, compatible with SIPp scenarios"
   homepage "https://github.com/tareqmy/sipr"
-  version "0.27.0"
+  version "0.27.1"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.intel?
       url "https://github.com/tareqmy/sipr/releases/download/v#{version}/sipr-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "7e5cfe4ff211a59273126e49d0fd693413e7db6c13c0976ae5b3888f7059386d"
+      sha256 "e47a10bbf17ad56086f9f4b369ead6ff8e87c73109728b149a638ae59935dacf"
     elsif Hardware::CPU.arm?
       url "https://github.com/tareqmy/sipr/releases/download/v#{version}/sipr-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "7f8a61aaa574cd04d05829f6ac52f01102a98a750259e02eee262084dd66b4cd"
+      sha256 "e020685baac74b5ecc5b2960661f80ac011406e5142920797eeb4614e7c4c196"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/tareqmy/sipr/releases/download/v#{version}/sipr-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "5fbe01cf3ac7b386597d00bf0aa6188811230500902aec62c1b68cb3162852d8"
+      sha256 "61bc782a26c1ae260292cc4e2afc36a601826eb9d17da689cc73143dfe4b6cdf"
     elsif Hardware::CPU.arm?
       url "https://github.com/tareqmy/sipr/releases/download/v#{version}/sipr-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2fb98b63c7d0d7334dae755bc5e135ea5ba1017501811cc8e71a8ae7195d0208"
+      sha256 "16de1006458f9e7fece19abd23f17c55221b012cd667c40ebe0e91e0df4b78ff"
     end
   end
 
